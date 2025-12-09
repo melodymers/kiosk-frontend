@@ -89,7 +89,7 @@
       const password = document.getElementById('password').value;
       if (passId === '25-00000' && password === 'admin123') {
         localStorage.setItem('isAuthenticated', 'true');
-        alert('Login successful! Dashboard coming next.');
+        window.location.href = "dashboard.html";
       } else {
         document.getElementById('errorMsg').classList.remove('hidden');
         document.getElementById('errorMsg').textContent = 'Invalid ValACE Pass ID or password';
