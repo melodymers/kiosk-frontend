@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FORCE kiosk classes */
+.min-h-screen { }
+.bg-gradient-to-br { }
+.from-blue-900 { }
+.to-blue-700 { }
+.shadow-2xl { }
